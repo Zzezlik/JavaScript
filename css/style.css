@@ -45,6 +45,7 @@
   transition: all 100ms ease-in-out;
   z-index: 2;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .btn:not(.btn:disabled):hover {
@@ -94,8 +95,13 @@
   background-color: #cecece6a;
 }
 .choice {
-  margin-left: 5px;
+  margin-left: 6px;
 }
 .reset-game {
   margin-left: 10px;
+}
+
+.game,
+.game-btn {
+  font-size: 20px;
 }
